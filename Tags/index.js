@@ -15,7 +15,7 @@ class Tags extends React.Component {
     };
   }
 
-  componentWillReceiveProps(props) {
+  UNSAFE_componentWillReceiveProps(props) {
     const { initialTags = [], initialText = " " } = props;
 
     this.setState({
